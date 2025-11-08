@@ -42,7 +42,7 @@ function Board({ squares, onClick, winnerLine, size = 9 }) {
 
 export default function Game() {
   const size = 9;
-  const winLength = 5;
+  const winLength = 3;
   const [history, setHistory] = useState([
     { squares: Array(size * size).fill(null), position: null },
   ]);
