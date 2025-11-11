@@ -1,16 +1,40 @@
-# React + Vite
+# Tic tac toe — Hướng dẫn (Tiếng Việt)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Một project React nhỏ khởi tạo bằng Vite. README này hướng dẫn cách cài đặt, chạy môi trường phát triển, build sản phẩm.
 
-Currently, two official plugins are available:
+Deployed site: https://tic-tac-toe-orpin-pi.vercel.app  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Yêu cầu trước
 
-## React Compiler
+Kiểm tra Node/npm:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+node -v
+npm -v
+```
 
-## Expanding the ESLint configuration
+## Cài đặt (chỉ làm 1 lần)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Trong thư mục gốc dự án, chạy:
+
+```bash
+npm install
+# hoặc
+# yarn
+```
+
+## Chạy môi trường phát triển (dev)
+
+Chạy dev server với Vite:
+
+```bash
+npm run dev
+```
+
+Sau khi chạy, Vite sẽ in địa chỉ (mặc định thường là http://localhost:5173). Mở trình duyệt và kiểm tra giao diện. 
+
+
+## Lỗi thường gặp & gỡ lỗi nhanh
+
+- Nếu dev server không chạy: kiểm tra Node/npm, cổng (port) có bị chiếm không.
+- Nếu build bị lỗi do dependency: thử chạy `npm ci` để cài sạch.
