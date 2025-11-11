@@ -1,0 +1,38 @@
+.square {
+    background: #ffffff;
+    border: 2px solid rgba(15, 23, 42, 0.04);
+    float: left;
+    height: var(--square-size);
+    width: var(--square-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6px;
+    border-radius: 10px;
+    font-size: calc(var(--square-size) * 0.42);
+    font-weight: 800;
+    color: var(--accent);
+    cursor: pointer;
+    transition: transform 0.14s ease, background 0.16s ease, box-shadow 0.14s;
+    box-shadow: 0 6px 18px rgba(2, 6, 23, 0.06);
+}
+
+.square:hover {
+    transform: translateY(-4px) scale(1.03);
+    background: #f0f9ff;
+}
+
+.highlight {
+    background: linear-gradient(90deg, #fde68a, #facc15);
+    color: #0b1220 !important;
+    transform: scale(1.06);
+    box-shadow: 0 10px 28px rgba(250, 204, 21, 0.12);
+}
+
+@media screen and (max-width: 600px) {
+    .square {
+        height: calc(var(--square-size) * 0.8);
+        width: calc(var(--square-size) * 0.8);
+        font-size: calc(var(--square-size) * 0.34);
+    }
+}

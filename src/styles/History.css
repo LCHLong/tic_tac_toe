@@ -1,0 +1,21 @@
+.moves-list {
+    padding-left: 18px;
+    margin-top: 6px;
+}
+
+.description {
+    display: inline-block;
+    padding: 8px;
+    width: 100%;
+    font-size: 1rem;
+    text-align: left;
+    border-radius: 8px;
+    margin: 6px 0;
+    background: #f8fafc;
+    color: #0f172a;
+    border: 1px solid rgba(15, 23, 42, 0.04);
+}
+
+.description:hover {
+    background: #eef2ff;
+}

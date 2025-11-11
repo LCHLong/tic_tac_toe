@@ -1,0 +1,11 @@
+.board {
+    display: inline-block;
+    background: transparent;
+    padding: 6px;
+    border-radius: 12px;
+}
+
+.board-row {
+    clear: both;
+    display: block;
+}
