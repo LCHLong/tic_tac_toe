@@ -103,10 +103,10 @@ button:hover {
 
 @media screen and (max-width: 600px) {
     .game-board {
-        width: 70vw;
+        width: 60vw;
     }
 
     .game-info {
-        width: 70vw;
+        width: 60vw;
     }
 }

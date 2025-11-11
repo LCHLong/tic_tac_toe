@@ -3,7 +3,8 @@
     --bg-end: #fef9c3;
     --panel: rgba(255, 255, 255, 0.92);
     --accent: #3b82f6;
-    --square-size: 108px;
+    --square-size: 96px;
+    --square-size-mobile: 48px;
 }
 
 body {
