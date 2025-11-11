@@ -31,8 +31,8 @@
 
 @media screen and (max-width: 600px) {
     .square {
-        height: calc(var(--square-size) * 0.8);
-        width: calc(var(--square-size) * 0.8);
+        height: calc(var(--square-size) * 0.5);
+        width: calc(var(--square-size) * 0.5);
         font-size: calc(var(--square-size) * 0.34);
     }
 }
