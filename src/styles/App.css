@@ -102,11 +102,18 @@ button:hover {
 }
 
 @media screen and (max-width: 600px) {
-    .game-board {
-        width: 60vw;
+    .game {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
+    .game-board,
     .game-info {
-        width: 60vw;
+        flex: 1 1 300px;
+        max-width: 420px;
+        min-width: 280px;
     }
+
 }
